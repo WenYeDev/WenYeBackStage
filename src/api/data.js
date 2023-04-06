@@ -36,8 +36,8 @@ export function ZipUpload(file) {
     url: '/zip/upload',
     method: 'post',
     data: file,
-    headers:{
-      'Content-Type':'multipart/form-data'
+    headers: {
+      'Content-Type': 'multipart/form-data'
     },
     baseURL: 'http://81.70.240.186:1234/wenye'
   })
